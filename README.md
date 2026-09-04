@@ -169,6 +169,7 @@ wj-equipment: barbell
 wj-source: exercises-dataset
 wj-source-id: "0025"
 ---
+
 # Barbell Bench Press
 
 ## Description
@@ -177,7 +178,7 @@ wj-source-id: "0025"
 
 Lie flat on a bench with your feet planted…
 
-*© Gym visual — https://gymvisual.com/*
+_© Gym visual — https://gymvisual.com/_
 
 ## Notes
 
@@ -283,9 +284,9 @@ Settings → Community plugins → Workout Journal:
 ## Development
 
 ```bash
-npm install
-npm run dev     # watch mode, no type-checking
-npm run build   # type-check + production bundle
+yarn
+yarn run dev     # watch mode, no type-checking
+yarn run build   # type-check + production bundle
 ```
 
 The bundled exercise catalog is generated, not hand-written. To regenerate it
