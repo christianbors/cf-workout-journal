@@ -296,6 +296,12 @@ from a fresh copy of the upstream dataset:
 node scripts/build-catalog.mjs path/to/exercises.json
 ```
 
+The crossfit exercises have been converted from https://github.com/Shankar-Hadimani/CrossfitFitnessAssistant/blob/master/data/crossfit_exercise_plan_01.csv. Use the following script to convert the CSV to JSON:
+
+```bash
+node scripts/csv_to_exercises.mjs <input.csv> <output.json>
+```
+
 That writes `src/data/catalogIndex.ts` (the search index) and
 `src/data/catalogDescriptions.ts` (the instruction texts). Both are bundled into
 `main.js`, because Obsidian only downloads `main.js`, `manifest.json` and
